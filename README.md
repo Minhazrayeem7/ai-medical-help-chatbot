@@ -126,11 +126,7 @@ chatbot-project/
 
 ---
 
-## 🔒 Security & Privacy Notice
 
-*   **Zero Data Telemetry**: Your uploaded medical PDFs (`data/`) and your generated vector embeddings (`vector_db/`) are strictly processed and stored locally on your machine.
-*   **Git Protected**: The `.gitignore` file includes exclusions for `.env`, `data/`, and `vector_db/` to guarantee that your personal medical data and private API keys are never accidentally pushed to a public repository.
-*   **Cost-Effective Infrastructure**: Geolocation features rely entirely on open-source, free-tier services (OpenStreetMap). The project fundamentally avoids reliance on paid Google Maps APIs.
 
 ---
 
