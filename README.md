@@ -50,40 +50,6 @@ The system utilizes a custom Router Agent to dynamically classify user intent an
 *   A Google Gemini API Key.
 *   (Optional) A LangSmith API Key for tracing and debugging LLM outputs.
 
-### Installation
-
-1.  **Clone the repository:**
-    ```bash
-    git clone https://github.com/yourusername/chatbot-project.git
-    cd chatbot-project
-    ```
-
-2.  **Set up a virtual environment:**
-    ```bash
-    python -m venv venv
-    source venv/bin/activate  # On Windows: venv\Scripts\activate
-    ```
-
-3.  **Install dependencies:**
-    ```bash
-    pip install -r requirements.txt
-    ```
-
-4.  **Configure Environment Variables:**
-    Copy the provided `.env.example` file to create your own `.env` file:
-    ```bash
-    cp .env.example .env
-    ```
-    Open the newly created `.env` file and insert your API keys:
-    ```properties
-    GOOGLE_API_KEY="your_gemini_api_key_here"
-
-    # Optional Tracing Configuration
-    LANGSMITH_TRACING="true"
-    LANGSMITH_ENDPOINT="https://api.smith.langchain.com"
-    LANGSMITH_API_KEY="your_langsmith_api_key_here"
-    LANGSMITH_PROJECT="chatbot-project"
-    ```
 
 ### Running the Application
 
